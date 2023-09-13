@@ -1,0 +1,186 @@
+*{
+    padding:0;
+    margin:0;
+	box-sizing:border-box;
+	font-family: 'Roboto', sans-serif;
+      }
+ .container{
+	width:90%;
+    margin:0 auto;	
+ }
+ .row{
+	display:flex;	 
+ }
+.col-1{
+	 
+	 width:8.33%;
+	 padding:0 15px;
+ }
+ .col-2{
+	 
+	 width:16.66%;
+	 padding:0 15px;
+ }
+ .col-3{
+	 
+	 width:25%;
+	 padding:0 15px;
+	
+ }
+ .col-4{
+	 
+	 width:33.33%;
+	 padding:0 15px;
+ }
+ .col-5{
+	 
+	 width:41.67%;
+ }
+ .col-6{
+	 
+	 width:50%;
+	 padding:0 15px;
+ }
+ .col-7{
+	 
+	 width:58.33%;
+	 padding:0 15px;
+ }
+ .col-8{
+	 
+	 width:66.66%;
+	 padding:0 15px;
+ }
+ .col-9{
+	 
+	 width:75%;
+	 padding:0 15px;
+ }
+ .col-10{
+	 
+	 width:83.33%;
+	 padding:0 15px;
+ }
+ .col-11{
+	 
+	 width:91.66%;
+	 padding:0 15px;
+ }
+ .col-12{
+	 
+	 width:100%;
+	 padding:0 15px;
+ }
+ .content{
+	padding:40px 40px; 
+	background-color:white;
+	
+ }
+ .content h3{
+	 font-size:25px;
+	 color:gray;
+	 margin-top:40px;
+ }
+ .content span{
+	 font-size:25px;
+	 color:black;
+	 
+ }
+ .bg-image{
+	 /* height:80vh; */
+	 /* width:100%; */
+	 background-image:url("image/bg-image.jpg");
+	 background-position:space-evenly;
+	background-size:cover;
+	align-items:center;
+	border-radius:10px 0 0 10px;
+ }
+ .img{
+	 position:relative;
+ }
+ .img .icon{
+	 position:absolute;
+	 top:20px;
+	 left:20px;
+	 font-size:30px;
+	 color:white;
+ }
+ .content p{
+	 font-size:18px;
+	 padding-top:20px;
+ }
+ .email{
+	 padding-top:15px;
+    display:flex;
+	justify-content:center;
+	align-items:center;
+	  }
+ .email .e_icon{
+	 /* position:absolute; */
+	 /* top:22px; */
+	 /* left:5px; */
+	 font-size:35px;
+	 display:flex;
+ }
+ .email_text{
+	 width:100%;
+	 padding:12px 10px;
+	 font-size:20px;
+	 background-color:white;
+	 border:1px solid white;
+	 border-bottom:2px solid lightgray;
+
+ }
+ .password{
+	 padding-top:15px;
+	 display:flex;
+	justify-content:center;
+	align-items:center;
+	
+ }
+ .password .lock_icon{
+	 
+	  font-size:35px;
+	 display:flex;
+ 
+	 
+ }
+ .pass_text{
+	 width:100%;
+	 padding:12px 10px;
+	 font-size:20px;
+	  background-color:white;
+	 border:1px solid white;
+	 border-bottom:2px solid lightgray;
+
+}
+.btn_primary a{
+	 text-decoration:none;
+	 color:white;
+	 background-color:#a997e1f0;
+	 padding:18px 40px;
+	 border-radius:30px;
+	 font-size:18px;
+}
+.btn_primary{
+	text-align:end;
+	margin-top:30px;
+}
+.link_item{
+	text-align:end;
+	margin-top:60px;
+}	
+.link_item a{
+	font-size:20px;
+}  
+.card{
+	border:1px solid lightgray;
+	border-radius:10px;
+	box-shadow:0px 0px 20px lightgray;
+	
+}
+#snippet{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
